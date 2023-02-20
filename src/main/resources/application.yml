@@ -1,8 +1,9 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://server-db01.database.windows.net:1433;database=employee;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
-    username: shubhendu027
-    password: password@123
+#     url: jdbc:sqlserver://server-db01.database.windows.net:1433;database=employee;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+#     username: shubhendu027
+#     password: password@123
+    url: jdbc:mysql://my-web-application-01-server.mysql.database.azure.com:3306/my-web-application-01-database?serverTimezone=UTC&sslmode=required&user=vbaeohjyei&password=6HE7B24DYXW5RI12%24
   jpa:
     show-sql: true 
     hibernate:
